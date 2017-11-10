@@ -8,15 +8,15 @@ while n != '!':
     n = input()
     if n.isdigit() == t:
         n = int(n)
-        if n < 2:
+        if n <= 2:
             if n == 1:
                 print(n, '- единица')
             elif n == 0:
                 print(n, '- ноль')
+            elif n == 2:
+                print(n, '- простое число')
             else:
                 print(n, '- составное число')
-        elif n == 2:
-            print(n, '- простое число')
         else:
             for i in range(2, n):
                 if n % i == 0:
