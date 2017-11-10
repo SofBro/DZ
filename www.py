@@ -7,3 +7,4 @@ for i in range(0, h):
     if s[i] == 'w':
         a.append(s[i])
 print(len(a))
+input()
