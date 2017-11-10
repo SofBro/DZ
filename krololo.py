@@ -4,6 +4,7 @@ t = True
 k = 0
 n = []
 while n != '!':
+    print('Введите строку')
     n = input()
     if n.isdigit() == t:
         n = int(n)
