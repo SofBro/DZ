@@ -14,7 +14,9 @@ while n != '!':
             elif n == 0:
                 print(n, '- ноль')
             else:
-                print(n, '-составное число')
+                print(n, '- составное число')
+        elif n == 2:
+            print(n, '- простое число')
         else:
             for i in range(2, n):
                 if n % i == 0:
